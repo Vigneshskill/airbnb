@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+    display: flex;
+    width: 1520px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #F7F7F7;
+    position: relative;
+   
+}
+.nav-para {
+    color: #3E3E3E;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: auto;
+}
+.close-img {
+width: 17px;
+height: 17px;
+flex-shrink: 0;
+right: 25px;
+top: 27px;
+position: absolute;
+}
+
+.nav-inp {
+    margin-top: 27px;
+}
+.input-para {
+    color: #FF385C;
+position: absolute;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+left: 75px;
+}
+
+.you-search {
+    border: 1px solid #cbc8c8;
+    margin-left: 600px;
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 300px;
+    display: flex;
+    position: relative;
+}
+.filter-input {
+    position: absolute;
+    width: 15px;
+height: 12px;
+top: 11px;
+left: 15px;
+}
+.u-input {
+    top: 11px;
+    left: 20px;
+    color: white;
+    padding-left: 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    position: absolute;
+}
+.search {
+    border-radius: 30px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 4px;
+    right: 5px;
+    background-color: #FF385C;
+}
+.sear-img {
+    position: absolute;
+   left: 4px;
+    top: 5px;
+    width: 22px;
+    height: 22px;
+}
+.nav-profile {
+    position: relative;
+    margin-left: 1200px;
+    display: flex;
+    top:-41px ;
+   
+}
+.nav-pro-para {
+    position: absolute;
+    left: -10px;
+    color: #3E3E3E;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.vect-img {
+    position: absolute;
+    width: 20px;
+    left: 100px;
+height: 20px;
+
+}
+
+.dote-img {
+position: absolute;
+width: 13px;
+height: 3px;
+top: 9px;
+left: 150px;
+}
+.user-img {
+    position: absolute;
+    width: 35px;
+height: 35px;
+left: 170px;
+top: -5px;
+
+}
+.nav-option {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    gap: 60px;
+}
+.nav-logo {
+    width: 45px;
+    height: 33.117px;
+    
+}
+.nav-logo-bea {
+    width: 45px;
+    height: 33.117px;
+    margin-left: 15px;
+}
+.nav-log-para {
+    color: #B8B8B8;
+
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.arrow {
+    margin-top: -17px;
+}
+.main-container {
+    padding-left: 50px;
+    width: auto;
+  
+}
+.first-container {
+    padding-left: 50px;
+    margin-top: 30px;
+    width: auto;
+}
+.first-content {
+    display: flex;
+    gap: 35px;
+}
+.first-con-first {
+    margin-left: 35px;
+}
+.first-con {
+    position: relative;
+}
+.first-cont-img {
+    position: relative;
+   z-index: 1;
+}
+.first-love {
+    position: absolute;
+   z-index: 2;
+   margin-left: -40px;
+   margin-top: 20px;
+  
+   width: 18px;
+height: 17px;
+flex-shrink: 0;
+}
+.first-star {
+    position: absolute;
+    
+}
+.Ellipse-cont {
+    display: flex;
+    position: relative;
+    z-index: 3;
+    top:-30px;
+    left: 130px;
+    gap: 5px;
+}
+.ell-img {
+    width: 6px;
+height: 6px;
+}
+.place-div {
+    display: flex;
+color: #3E3E3E;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.area-name {
+    color: #B8B8B8;
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.date {
+    color: #B8B8B8;
+    
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.rupee {
+    color: #3E3E3E;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.star {
+    margin-left: 80px;
+    width: 15px;
+height: 14px;
+}
